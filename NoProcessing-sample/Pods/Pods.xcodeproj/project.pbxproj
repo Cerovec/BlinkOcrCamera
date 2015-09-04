@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636BC752E7946EF6919A00D1F8EAE693 /* Foundation.framework */; };
+		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05FFEF1E73491D861FE057C2FE4D6E04 /* torchon_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "torchon_pressed@2x.png"; path = "MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchon_pressed@2x.png"; sourceTree = "<group>"; };
+		0C63093622D62FE66F7E23C28F262773 /* PPRegexOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPRegexOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPRegexOcrParserFactory.h; sourceTree = "<group>"; };
+		0D8AC8A17FCF5D4A7F2312639C6E3318 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		122DF70C7FE9874A026E1D8349780D2F /* PPRecognizerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPRecognizerResult.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPRecognizerResult.h; sourceTree = "<group>"; };
+		1244412AC582A15EECC1B299CF8407F4 /* torchoff_pressed.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = torchoff_pressed.png; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchoff_pressed.png; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18713BE4A7EA8C306A88E6B2E1725051 /* PPLicenseSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPLicenseSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPLicenseSettings.h; sourceTree = "<group>"; };
+		1F4795705DEB58FE123912780EE1C13B /* torchon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = torchon.png; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchon.png; sourceTree = "<group>"; };
+		28C36E157B3D63A6D25BEEA1D227C00B /* PPSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPSettings.h; sourceTree = "<group>"; };
+		3BBAA032F400D567671BA8C89933C37D /* PPModernBaseOverlayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPModernBaseOverlayViewController.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPModernBaseOverlayViewController.h; sourceTree = "<group>"; };
+		4057BC5CB0409E43ECB8BEACA2879BBB /* PPUiSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPUiSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPUiSettings.h; sourceTree = "<group>"; };
+		42651305CCA9031DA4158E622236A5A2 /* en.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en.strings; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/en.strings; sourceTree = "<group>"; };
+		441A485EEDA2103032F8345E1BFE59B5 /* PPOcrRecognizerSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrRecognizerSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrRecognizerSettings.h; sourceTree = "<group>"; };
+		4892CCACD0A970AC465FCBCC091DB666 /* PPBaseOverlayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPBaseOverlayViewController.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPBaseOverlayViewController.h; sourceTree = "<group>"; };
+		4C0ADC7E44EDF7A8C733FE4A1A7CD52E /* PPOcrFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrFont.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrFont.h; sourceTree = "<group>"; };
+		4EEE6D8C7B9730B9878FF02FAFA0EB01 /* PPModernOcrResultOverlaySubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPModernOcrResultOverlaySubview.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPModernOcrResultOverlaySubview.h; sourceTree = "<group>"; };
+		51A06819121B17608B49500D5B41BD4E /* PPMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPMetadata.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPMetadata.h; sourceTree = "<group>"; };
+		5B357F61B2BFF6A2C1AD299A0B620FBF /* PPImageMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPImageMetadata.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPImageMetadata.h; sourceTree = "<group>"; };
+		5F9EB5DF4DDB0CF380662C502093C48D /* ocr_model.zzip */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ocr_model.zzip; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/ocr_model.zzip; sourceTree = "<group>"; };
+		604F2905D9879BCAA0B98321112A6333 /* PPOcrEngineOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrEngineOptions.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrEngineOptions.h; sourceTree = "<group>"; };
+		61C1B8EE7E551BB4F0983113A8387B24 /* PPSwedenBankGiroNumberOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSwedenBankGiroNumberOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPSwedenBankGiroNumberOcrParserFactory.h; sourceTree = "<group>"; };
+		636BC752E7946EF6919A00D1F8EAE693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		670CE81AB504EE479058DFA99E285278 /* PPbeep.wav */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.wav; name = PPbeep.wav; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/PPbeep.wav; sourceTree = "<group>"; };
+		6B0F4CAA3376C529D38CC837EED47451 /* PPPriceOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPPriceOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPPriceOcrParserFactory.h; sourceTree = "<group>"; };
+		71668184A329432F01534C4347CF155A /* torchon_pressed.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = torchon_pressed.png; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchon_pressed.png; sourceTree = "<group>"; };
+		749DB9130EC0C5672FBDE63FCBE4E903 /* PPRecognizerSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPRecognizerSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPRecognizerSettings.h; sourceTree = "<group>"; };
+		753C43A8C35575C864106218C0C55FAE /* torchoff_pressed@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "torchoff_pressed@2x.png"; path = "MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchoff_pressed@2x.png"; sourceTree = "<group>"; };
+		761960EAE0E67831CFA9FAF79A476316 /* PPCroReferenceOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPCroReferenceOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPCroReferenceOcrParserFactory.h; sourceTree = "<group>"; };
+		8611989B74241858F3260A864CB60A27 /* PPSwedenAmountOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSwedenAmountOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPSwedenAmountOcrParserFactory.h; sourceTree = "<group>"; };
+		86B5D22DACFB45C9267B00D84B2066C3 /* PPCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPCoordinator.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPCoordinator.h; sourceTree = "<group>"; };
+		93FC5176E7AC1E99D9F7C163906650C7 /* PPScanSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPScanSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPScanSettings.h; sourceTree = "<group>"; };
+		94836B05D53DDA62A541353888D3946D /* PPOverlayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOverlayViewController.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOverlayViewController.h; sourceTree = "<group>"; };
+		94ED08581C8A7588545986A03812359C /* PPMetadataSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPMetadataSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPMetadataSettings.h; sourceTree = "<group>"; };
+		9FEC70619A471F7E5F46E2A2E0A4DF03 /* PPOcrLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrLayout.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrLayout.h; sourceTree = "<group>"; };
+		A02D3E6943B13739BF5794A4A62991F4 /* PPCameraSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPCameraSettings.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPCameraSettings.h; sourceTree = "<group>"; };
+		A9E5DAC1E2CB7061E7671A484EC8FEDB /* PPSwedenReferenceOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSwedenReferenceOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPSwedenReferenceOcrParserFactory.h; sourceTree = "<group>"; };
+		AA3F674409B6B800E76B2162DCAC90D9 /* PPDetectionStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPDetectionStatus.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPDetectionStatus.h; sourceTree = "<group>"; };
+		AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DE39B6E6EECBB3ED61BDB6D0D2D1B8 /* PPOverlaySubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOverlaySubview.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOverlaySubview.h; sourceTree = "<group>"; };
+		B6D76CB454AD79CA61DD3E7108E39DDB /* PPTextMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTextMetadata.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPTextMetadata.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBF03E82761291F8252143C9ABDB6CCC /* PPScanningViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPScanningViewController.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPScanningViewController.h; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C073B6AC9988706C69FBFB7A856B1762 /* torchoff.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = torchoff.png; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchoff.png; sourceTree = "<group>"; };
+		C5064A923EDAA9DCF83FB16AA5F9927C /* PPOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrParserFactory.h; sourceTree = "<group>"; };
+		C88CD56E391B6BD02698D89DF98B5C36 /* PPRawOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPRawOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPRawOcrParserFactory.h; sourceTree = "<group>"; };
+		C8B931DE527F1D37B7BE66CF9A9692F0 /* PPObjectDetectionMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPObjectDetectionMetadata.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPObjectDetectionMetadata.h; sourceTree = "<group>"; };
+		CA28DA0054FF8EBBD02EFD276A73F6BE /* PPScanDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPScanDelegate.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPScanDelegate.h; sourceTree = "<group>"; };
+		CC5F69152899F72A4657C8CC07016014 /* MicroBlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MicroBlink.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/MicroBlink.h; sourceTree = "<group>"; };
+		D248FC2AE3526E2AD8E7552F5FAA3199 /* PPEmailOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPEmailOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPEmailOcrParserFactory.h; sourceTree = "<group>"; };
+		D4946FD49ADDBE3FC6976967E18E4F3F /* torchoff@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "torchoff@2x.png"; path = "MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchoff@2x.png"; sourceTree = "<group>"; };
+		DAE7BA109BC4C07B304944D80197AA7E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DCC600FD71446301CFC6CE61B4AE98B9 /* PPIbanOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPIbanOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPIbanOcrParserFactory.h; sourceTree = "<group>"; };
+		E48A3390273CD0A02F94A8DE9DEFBD5C /* PPSwedenSlipCodeOcrParserFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPSwedenSlipCodeOcrParserFactory.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPSwedenSlipCodeOcrParserFactory.h; sourceTree = "<group>"; };
+		E5B48609C207FD41295AFC1B10E364E0 /* PPOcrRecognizerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrRecognizerResult.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrRecognizerResult.h; sourceTree = "<group>"; };
+		E7CB1D2A85507214F64F7CC91C3EEEA9 /* torchon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "torchon@2x.png"; path = "MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Resources/torchon@2x.png"; sourceTree = "<group>"; };
+		F171977EACBBB8B89A71B33E3BEEB7FE /* PPOcrLayoutMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrLayoutMetadata.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrLayoutMetadata.h; sourceTree = "<group>"; };
+		F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		FF3B21730FBAFDB45AEA27620C5A2EE2 /* PPOcrResultOverlaySubview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPOcrResultOverlaySubview.h; path = MicroBlink.embeddedframework/MicroBlink.framework/Versions/A/Headers/PPOcrResultOverlaySubview.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EE21561281E5F5C0B5A85CFDC1A411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				636BC752E7946EF6919A00D1F8EAE693 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CB4ED24E740CD7731EA9C58C5F7DBAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D81DB8CFF1FBE3412842183E8E12FEE4 /* PPBlinkOCR */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7CB4ED24E740CD7731EA9C58C5F7DBAC /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		850307713C907BDE6D838525EB0AAC0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				670CE81AB504EE479058DFA99E285278 /* PPbeep.wav */,
+				42651305CCA9031DA4158E622236A5A2 /* en.strings */,
+				5F9EB5DF4DDB0CF380662C502093C48D /* ocr_model.zzip */,
+				C073B6AC9988706C69FBFB7A856B1762 /* torchoff.png */,
+				D4946FD49ADDBE3FC6976967E18E4F3F /* torchoff@2x.png */,
+				1244412AC582A15EECC1B299CF8407F4 /* torchoff_pressed.png */,
+				753C43A8C35575C864106218C0C55FAE /* torchoff_pressed@2x.png */,
+				1F4795705DEB58FE123912780EE1C13B /* torchon.png */,
+				E7CB1D2A85507214F64F7CC91C3EEEA9 /* torchon@2x.png */,
+				71668184A329432F01534C4347CF155A /* torchon_pressed.png */,
+				05FFEF1E73491D861FE057C2FE4D6E04 /* torchon_pressed@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				F544E664EA23C82471AAB47D479D781B /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				0D8AC8A17FCF5D4A7F2312639C6E3318 /* Pods.debug.xcconfig */,
+				DAE7BA109BC4C07B304944D80197AA7E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D81DB8CFF1FBE3412842183E8E12FEE4 /* PPBlinkOCR */ = {
+			isa = PBXGroup;
+			children = (
+				CC5F69152899F72A4657C8CC07016014 /* MicroBlink.h */,
+				4892CCACD0A970AC465FCBCC091DB666 /* PPBaseOverlayViewController.h */,
+				A02D3E6943B13739BF5794A4A62991F4 /* PPCameraSettings.h */,
+				86B5D22DACFB45C9267B00D84B2066C3 /* PPCoordinator.h */,
+				761960EAE0E67831CFA9FAF79A476316 /* PPCroReferenceOcrParserFactory.h */,
+				AA3F674409B6B800E76B2162DCAC90D9 /* PPDetectionStatus.h */,
+				D248FC2AE3526E2AD8E7552F5FAA3199 /* PPEmailOcrParserFactory.h */,
+				DCC600FD71446301CFC6CE61B4AE98B9 /* PPIbanOcrParserFactory.h */,
+				5B357F61B2BFF6A2C1AD299A0B620FBF /* PPImageMetadata.h */,
+				18713BE4A7EA8C306A88E6B2E1725051 /* PPLicenseSettings.h */,
+				51A06819121B17608B49500D5B41BD4E /* PPMetadata.h */,
+				94ED08581C8A7588545986A03812359C /* PPMetadataSettings.h */,
+				3BBAA032F400D567671BA8C89933C37D /* PPModernBaseOverlayViewController.h */,
+				4EEE6D8C7B9730B9878FF02FAFA0EB01 /* PPModernOcrResultOverlaySubview.h */,
+				C8B931DE527F1D37B7BE66CF9A9692F0 /* PPObjectDetectionMetadata.h */,
+				604F2905D9879BCAA0B98321112A6333 /* PPOcrEngineOptions.h */,
+				4C0ADC7E44EDF7A8C733FE4A1A7CD52E /* PPOcrFont.h */,
+				9FEC70619A471F7E5F46E2A2E0A4DF03 /* PPOcrLayout.h */,
+				F171977EACBBB8B89A71B33E3BEEB7FE /* PPOcrLayoutMetadata.h */,
+				C5064A923EDAA9DCF83FB16AA5F9927C /* PPOcrParserFactory.h */,
+				E5B48609C207FD41295AFC1B10E364E0 /* PPOcrRecognizerResult.h */,
+				441A485EEDA2103032F8345E1BFE59B5 /* PPOcrRecognizerSettings.h */,
+				FF3B21730FBAFDB45AEA27620C5A2EE2 /* PPOcrResultOverlaySubview.h */,
+				B0DE39B6E6EECBB3ED61BDB6D0D2D1B8 /* PPOverlaySubview.h */,
+				94836B05D53DDA62A541353888D3946D /* PPOverlayViewController.h */,
+				6B0F4CAA3376C529D38CC837EED47451 /* PPPriceOcrParserFactory.h */,
+				C88CD56E391B6BD02698D89DF98B5C36 /* PPRawOcrParserFactory.h */,
+				122DF70C7FE9874A026E1D8349780D2F /* PPRecognizerResult.h */,
+				749DB9130EC0C5672FBDE63FCBE4E903 /* PPRecognizerSettings.h */,
+				0C63093622D62FE66F7E23C28F262773 /* PPRegexOcrParserFactory.h */,
+				CA28DA0054FF8EBBD02EFD276A73F6BE /* PPScanDelegate.h */,
+				93FC5176E7AC1E99D9F7C163906650C7 /* PPScanSettings.h */,
+				BBF03E82761291F8252143C9ABDB6CCC /* PPScanningViewController.h */,
+				28C36E157B3D63A6D25BEEA1D227C00B /* PPSettings.h */,
+				8611989B74241858F3260A864CB60A27 /* PPSwedenAmountOcrParserFactory.h */,
+				61C1B8EE7E551BB4F0983113A8387B24 /* PPSwedenBankGiroNumberOcrParserFactory.h */,
+				A9E5DAC1E2CB7061E7671A484EC8FEDB /* PPSwedenReferenceOcrParserFactory.h */,
+				E48A3390273CD0A02F94A8DE9DEFBD5C /* PPSwedenSlipCodeOcrParserFactory.h */,
+				B6D76CB454AD79CA61DD3E7108E39DDB /* PPTextMetadata.h */,
+				4057BC5CB0409E43ECB8BEACA2879BBB /* PPUiSettings.h */,
+				850307713C907BDE6D838525EB0AAC0E /* Resources */,
+			);
+			path = PPBlinkOCR;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
+				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = AEEDA5F6291892906F3CBBF39B8BC98F /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		562981BE4BA7AD22269BEEF8A20B95EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8AC8A17FCF5D4A7F2312639C6E3318 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		879687566179F2319FABD0A41AD81D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE7BA109BC4C07B304944D80197AA7E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				562981BE4BA7AD22269BEEF8A20B95EB /* Debug */,
+				879687566179F2319FABD0A41AD81D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
