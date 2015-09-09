@@ -19,6 +19,8 @@
 
 @property (nonatomic, strong) PPSettings *ocrSettings;
 
+@property (nonatomic, strong) UIViewController<PPScanningViewController>* scanningViewController;
+
 @end
 
 @implementation ViewController
@@ -76,13 +78,12 @@
     }
 
     /** Allocate and present the scanning view controller */
-    UIViewController<PPScanningViewController>* scanningViewController =
-        [self.coordinator cameraViewControllerWithDelegate:self];
+    self.scanningViewController = [self.coordinator cameraViewControllerWithDelegate:self];
 
-    [self addChildViewController:scanningViewController];
-    scanningViewController.view.frame = self.view.bounds;
-    [self.view addSubview:scanningViewController.view];
-    [scanningViewController didMoveToParentViewController:self];
+    [self addChildViewController:self.scanningViewController];
+    self.scanningViewController.view.frame = self.view.bounds;
+    [self.view addSubview:self.scanningViewController.view];
+    [self.scanningViewController didMoveToParentViewController:self];
 }
 
 
@@ -115,10 +116,10 @@
         }
     }
 
-    self.coordinator.currentSettings = self.ocrSettings;
+    self.coordinator.currentSettings = self.emptySettings;
     [self.coordinator applySettings];
 
-    [scanningViewController resumeScanningAndResetState:NO];
+    [self.scanningViewController resumeScanningAndResetState:NO];
 }
 
 - (void)scanningViewController:(UIViewController<PPScanningViewController> *)scanningViewController didOutputMetadata:(PPMetadata *)metadata {
@@ -136,7 +137,7 @@
         self.coordinator.currentSettings = [self ocrSettings];
         [self.coordinator applySettings];
 
-        [scanningViewController pauseScanning];
+        [self.scanningViewController pauseScanning];
 
         [self.coordinator processImage:image scanningRegion:CGRectMake(0.0, 0.0, 1.0, 1.0) delegate:self];
     }
