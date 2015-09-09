@@ -13,7 +13,23 @@
 		18259BC11B99EC17003AF1A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18259BBF1B99EC17003AF1A0 /* Main.storyboard */; };
 		18259BC31B99EC17003AF1A0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18259BC21B99EC17003AF1A0 /* Images.xcassets */; };
 		18259BC61B99EC17003AF1A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18259BC41B99EC17003AF1A0 /* LaunchScreen.xib */; };
-		86950D40586010024E7A34D7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FA914E666F077D8FA7847E /* libPods.a */; };
+		182DC1DE1B9F9F8900512E41 /* MicroBlink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DC1D11B9F9F8900512E41 /* MicroBlink.framework */; };
+		182DC1DF1B9F9F8900512E41 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D31B9F9F8900512E41 /* en.strings */; };
+		182DC1E01B9F9F8900512E41 /* ocr_model.zzip in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D41B9F9F8900512E41 /* ocr_model.zzip */; };
+		182DC1E11B9F9F8900512E41 /* PPbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D51B9F9F8900512E41 /* PPbeep.wav */; };
+		182DC1E21B9F9F8900512E41 /* torchoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D61B9F9F8900512E41 /* torchoff.png */; };
+		182DC1E31B9F9F8900512E41 /* torchoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D71B9F9F8900512E41 /* torchoff@2x.png */; };
+		182DC1E41B9F9F8900512E41 /* torchoff_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D81B9F9F8900512E41 /* torchoff_pressed.png */; };
+		182DC1E51B9F9F8900512E41 /* torchoff_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1D91B9F9F8900512E41 /* torchoff_pressed@2x.png */; };
+		182DC1E61B9F9F8900512E41 /* torchon.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1DA1B9F9F8900512E41 /* torchon.png */; };
+		182DC1E71B9F9F8900512E41 /* torchon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1DB1B9F9F8900512E41 /* torchon@2x.png */; };
+		182DC1E81B9F9F8900512E41 /* torchon_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1DC1B9F9F8900512E41 /* torchon_pressed.png */; };
+		182DC1E91B9F9F8900512E41 /* torchon_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182DC1DD1B9F9F8900512E41 /* torchon_pressed@2x.png */; };
+		182DC1EB1B9F9FA100512E41 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DC1EA1B9F9FA100512E41 /* libc++.dylib */; };
+		182DC1ED1B9F9FA500512E41 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DC1EC1B9F9FA500512E41 /* libiconv.dylib */; };
+		182DC1EF1B9F9FAA00512E41 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DC1EE1B9F9FAA00512E41 /* CoreMedia.framework */; };
+		182DC1F11B9F9FAE00512E41 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DC1F01B9F9FAE00512E41 /* CoreVideo.framework */; };
+		182DC1F31B9F9FB200512E41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182DC1F21B9F9FB200512E41 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +43,24 @@
 		18259BC01B99EC17003AF1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18259BC21B99EC17003AF1A0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18259BC51B99EC17003AF1A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		182DC1D11B9F9F8900512E41 /* MicroBlink.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicroBlink.framework; sourceTree = "<group>"; };
+		182DC1D31B9F9F8900512E41 /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
+		182DC1D41B9F9F8900512E41 /* ocr_model.zzip */ = {isa = PBXFileReference; lastKnownFileType = file; path = ocr_model.zzip; sourceTree = "<group>"; };
+		182DC1D51B9F9F8900512E41 /* PPbeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = PPbeep.wav; sourceTree = "<group>"; };
+		182DC1D61B9F9F8900512E41 /* torchoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torchoff.png; sourceTree = "<group>"; };
+		182DC1D71B9F9F8900512E41 /* torchoff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchoff@2x.png"; sourceTree = "<group>"; };
+		182DC1D81B9F9F8900512E41 /* torchoff_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torchoff_pressed.png; sourceTree = "<group>"; };
+		182DC1D91B9F9F8900512E41 /* torchoff_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchoff_pressed@2x.png"; sourceTree = "<group>"; };
+		182DC1DA1B9F9F8900512E41 /* torchon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torchon.png; sourceTree = "<group>"; };
+		182DC1DB1B9F9F8900512E41 /* torchon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchon@2x.png"; sourceTree = "<group>"; };
+		182DC1DC1B9F9F8900512E41 /* torchon_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torchon_pressed.png; sourceTree = "<group>"; };
+		182DC1DD1B9F9F8900512E41 /* torchon_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "torchon_pressed@2x.png"; sourceTree = "<group>"; };
+		182DC1EA1B9F9FA100512E41 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		182DC1EC1B9F9FA500512E41 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		182DC1EE1B9F9FAA00512E41 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		182DC1F01B9F9FAE00512E41 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		182DC1F21B9F9FB200512E41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		B48B0BD0B27AFA74009E9834 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		B8FA914E666F077D8FA7847E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD626BC9E4D87D648D58229B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86950D40586010024E7A34D7 /* libPods.a in Frameworks */,
+				182DC1F31B9F9FB200512E41 /* AudioToolbox.framework in Frameworks */,
+				182DC1F11B9F9FAE00512E41 /* CoreVideo.framework in Frameworks */,
+				182DC1EF1B9F9FAA00512E41 /* CoreMedia.framework in Frameworks */,
+				182DC1ED1B9F9FA500512E41 /* libiconv.dylib in Frameworks */,
+				182DC1EB1B9F9FA100512E41 /* libc++.dylib in Frameworks */,
+				182DC1DE1B9F9F8900512E41 /* MicroBlink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +123,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		182DC1D01B9F9F8900512E41 /* MicroBlink.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				182DC1D11B9F9F8900512E41 /* MicroBlink.framework */,
+				182DC1D21B9F9F8900512E41 /* Resources */,
+			);
+			path = MicroBlink.embeddedframework;
+			sourceTree = "<group>";
+		};
+		182DC1D21B9F9F8900512E41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				182DC1D31B9F9F8900512E41 /* en.strings */,
+				182DC1D41B9F9F8900512E41 /* ocr_model.zzip */,
+				182DC1D51B9F9F8900512E41 /* PPbeep.wav */,
+				182DC1D61B9F9F8900512E41 /* torchoff.png */,
+				182DC1D71B9F9F8900512E41 /* torchoff@2x.png */,
+				182DC1D81B9F9F8900512E41 /* torchoff_pressed.png */,
+				182DC1D91B9F9F8900512E41 /* torchoff_pressed@2x.png */,
+				182DC1DA1B9F9F8900512E41 /* torchon.png */,
+				182DC1DB1B9F9F8900512E41 /* torchon@2x.png */,
+				182DC1DC1B9F9F8900512E41 /* torchon_pressed.png */,
+				182DC1DD1B9F9F8900512E41 /* torchon_pressed@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		42B96C1597E687FD3939F9B3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +162,12 @@
 		6A6F7A64115279F6566C5CEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8FA914E666F077D8FA7847E /* libPods.a */,
+				182DC1F21B9F9FB200512E41 /* AudioToolbox.framework */,
+				182DC1F01B9F9FAE00512E41 /* CoreVideo.framework */,
+				182DC1EE1B9F9FAA00512E41 /* CoreMedia.framework */,
+				182DC1EC1B9F9FA500512E41 /* libiconv.dylib */,
+				182DC1EA1B9F9FA100512E41 /* libc++.dylib */,
+				182DC1D01B9F9F8900512E41 /* MicroBlink.embeddedframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,11 +179,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18259BD51B99EC17003AF1A0 /* Build configuration list for PBXNativeTarget "NoProcessing-sample" */;
 			buildPhases = (
-				1CAB7FCE4FD021157E0A8D06 /* Check Pods Manifest.lock */,
 				18259BAE1B99EC17003AF1A0 /* Sources */,
 				18259BAF1B99EC17003AF1A0 /* Frameworks */,
 				18259BB01B99EC17003AF1A0 /* Resources */,
-				14884573A07C4505E6E05554 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,46 +229,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182DC1E81B9F9F8900512E41 /* torchon_pressed.png in Resources */,
+				182DC1E71B9F9F8900512E41 /* torchon@2x.png in Resources */,
 				18259BC11B99EC17003AF1A0 /* Main.storyboard in Resources */,
+				182DC1E01B9F9F8900512E41 /* ocr_model.zzip in Resources */,
+				182DC1E21B9F9F8900512E41 /* torchoff.png in Resources */,
+				182DC1DF1B9F9F8900512E41 /* en.strings in Resources */,
 				18259BC61B99EC17003AF1A0 /* LaunchScreen.xib in Resources */,
+				182DC1E11B9F9F8900512E41 /* PPbeep.wav in Resources */,
+				182DC1E51B9F9F8900512E41 /* torchoff_pressed@2x.png in Resources */,
+				182DC1E91B9F9F8900512E41 /* torchon_pressed@2x.png in Resources */,
 				18259BC31B99EC17003AF1A0 /* Images.xcassets in Resources */,
+				182DC1E31B9F9F8900512E41 /* torchoff@2x.png in Resources */,
+				182DC1E61B9F9F8900512E41 /* torchon.png in Resources */,
+				182DC1E41B9F9F8900512E41 /* torchoff_pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		14884573A07C4505E6E05554 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1CAB7FCE4FD021157E0A8D06 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18259BAE1B99EC17003AF1A0 /* Sources */ = {
@@ -323,6 +368,10 @@
 			baseConfigurationReference = B48B0BD0B27AFA74009E9834 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MicroBlink.embeddedframework",
+				);
 				INFOPLIST_FILE = "NoProcessing-sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -334,6 +383,10 @@
 			baseConfigurationReference = CD626BC9E4D87D648D58229B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MicroBlink.embeddedframework",
+				);
 				INFOPLIST_FILE = "NoProcessing-sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
